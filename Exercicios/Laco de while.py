@@ -20,14 +20,14 @@ while(TentativaAtual <= TotalDeTentativas):
     print("Você digitou o número: ", tentativa)
 
     if(acerto):
-        print("Você acertou o número corretamente!! na tentativa ", TentativaAtual," de ", TotalDeTentativas)
+        print("Você acertou o número corretamente!! na tentativa {} de {}".format(TentativaAtual, TotalDeTentativas))
         break
 
     elif(abaixo):
-        print("O número está ABAIXO!!, tentativa: ", TentativaAtual," de ", TotalDeTentativas)
+        print("O número está ABAIXO!!, tentativa: {} de {}".format(TentativaAtual, TotalDeTentativas))
 
     elif(acima):
-        print("O número está ACIMA!!", TentativaAtual," de ", TotalDeTentativas)
+        print("O número está ACIMA!!, tentativa: {} de {}".format(TentativaAtual, TotalDeTentativas))
 
     TentativaAtual = TentativaAtual+1 
 
