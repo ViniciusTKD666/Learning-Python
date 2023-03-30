@@ -6,10 +6,6 @@ numero_secreto = 31
 TotalDeTentativas = 5
 TentativaAtual = 1
 
-
-
-
-    
 while(TentativaAtual <= TotalDeTentativas):
     tentativa = int(input("Digite um número: "))
 
